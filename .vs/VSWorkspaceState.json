@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\public",
+    "\\public\\css",
+    "\\resources",
+    "\\resources\\css",
+    "\\resources\\js",
+    "\\resources\\views",
+    "\\routes"
+  ],
+  "PreviewInSolutionExplorer": false
+}
