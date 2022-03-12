@@ -2,13 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\public",
-    "\\public\\css",
-    "\\resources",
-    "\\resources\\css",
-    "\\resources\\js",
-    "\\resources\\views",
-    "\\routes"
+    "\\app\\Events",
+    "\\app\\Exceptions",
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
+    "\\app\\Models",
+    "\\app\\Providers",
+    "\\database",
+    "\\database\\migrations"
   ],
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\.env",
+  "PreviewInSolutionExplorer": true
 }

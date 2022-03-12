@@ -1,7 +1,5 @@
 require('./bootstrap');
 
-alert("Hello! This is an experimental group chat that we made for Research Capstone. Just say anything you want in the chat!");
-
 const messages_el = document.getElementById("messages");
 const username_input = document.getElementById("username");
 const message_input = document.getElementById("message_input");

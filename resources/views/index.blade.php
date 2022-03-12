@@ -13,12 +13,21 @@
             <h1>ALIAS</h1>
             <h3>A RISCI-based Anonymous Chat Room</h3>
             <br> </br>
-            <input type="text" name="username" id="username" placeholder="Enter your Nickname here..." />
+            <input type="text" name="username" id="username" placeholder="Enter your Nickname here..." autocomplete="off" />
         </header>
         <div id="messages"></div>
         <form id="message_form">
-            <input type="text" name="message" id="message_input" placeholder="What do you think about current political issues?" />
-            <button type="submit" id="message_send">Send</button>
+            <input type="text" name="message" id="message_input" placeholder="Enter your Message here..." autocomplete="off" />
+            <button type="submit" id="message_send" onClick="setTimeout(ClearMessage, delay);">Send</button>
+
+            <script>
+            function ClearMessage() {
+            document.getElementById('message_input').value = '';
+            }
+            var delay = 15;
+            setTimeout( ClearMessage, delay )
+            </script>
+
     </div>
 
     <script src="./js/app.js"></script>
