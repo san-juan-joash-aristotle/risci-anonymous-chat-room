@@ -1,5 +1,7 @@
 <?php
 
+// Based on Eazy2Code’s real-time chat application with Laravel and Pusher (https://www.youtube.com/watch?v=vl5CJIhy5oU&t; retrieved on March 10, 2022)
+
 use Illuminate\Support\Facades\Route;
 use App\Events\Message;
 use Illuminate\Http\Request;

@@ -1,5 +1,7 @@
 require('./bootstrap');
 
+// Based on Eazy2Code’s real-time chat application with Laravel and Pusher (https://www.youtube.com/watch?v=vl5CJIhy5oU&t; retrieved on March 10, 2022)
+
 const messages_el = document.getElementById("messages");
 const username_input = document.getElementById("username");
 const message_input = document.getElementById("message_input");

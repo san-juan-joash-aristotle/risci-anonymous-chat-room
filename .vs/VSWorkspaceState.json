@@ -3,14 +3,14 @@
     "",
     "\\app",
     "\\app\\Events",
-    "\\app\\Exceptions",
-    "\\app\\Http",
-    "\\app\\Http\\Controllers",
-    "\\app\\Models",
-    "\\app\\Providers",
-    "\\database",
-    "\\database\\migrations"
+    "\\public",
+    "\\public\\css",
+    "\\public\\js",
+    "\\resources",
+    "\\resources\\js",
+    "\\resources\\views",
+    "\\routes"
   ],
-  "SelectedNode": "\\.env",
+  "SelectedNode": "\\resources\\views\\index.blade.php",
   "PreviewInSolutionExplorer": true
 }

@@ -2162,7 +2162,8 @@ module.exports = {
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); // Based on Eazy2Code’s real-time chat application with Laravel and Pusher (https://www.youtube.com/watch?v=vl5CJIhy5oU&t; retrieved on March 10, 2022)
+
 
 var messages_el = document.getElementById("messages");
 var username_input = document.getElementById("username");
